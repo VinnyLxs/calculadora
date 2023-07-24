@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace calculadora
 {
-     class Program
+    class Program
     {
         static void Main(string[] args)
         {
             ControlCalculadora control = new ControlCalculadora();
             control.Operacao();
-            Console.ReadLine();
-        }//fim do metodo main 
+            Console.ReadLine(); //Manter o prompt Aberto
+        }//fim do método main
     }//fim da classe program
-}//fim do projeto calculadora 
+}//fim do projeto calculadora
